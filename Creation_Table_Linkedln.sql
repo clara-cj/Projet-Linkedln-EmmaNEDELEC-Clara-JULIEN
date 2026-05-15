@@ -86,13 +86,3 @@ CREATE OR REPLACE TABLE company_industries (
     company_id  VARCHAR(50),
     industry    VARCHAR(255)
 );
-
--- Ou vider toutes les tables d'un coup
-TRUNCATE TABLE linkedin.raw.job_postings;
-TRUNCATE TABLE linkedin.raw.benefits;
-TRUNCATE TABLE linkedin.raw.companies;
-TRUNCATE TABLE linkedin.raw.employee_counts;
-TRUNCATE TABLE linkedin.raw.job_skills;
-TRUNCATE TABLE linkedin.raw.job_industries;
-TRUNCATE TABLE linkedin.raw.company_industries;
-TRUNCATE TABLE linkedin.raw.company_specialities;
